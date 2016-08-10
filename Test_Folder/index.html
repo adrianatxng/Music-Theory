@@ -4,13 +4,18 @@
     <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 	<link rel="stylesheet" href="LineStaffStyling.css">
 	<script src="StaffMovement.js"></script>
+	<style>
+		.note{
+			position: relative;
+			top:30px;
+	</style>
   </head>
   <body>
 	<div class = "STAFF">	
 	</div>
 	<div class = "NOTES">
 		<marquee behavior="scroll" direction="left" scrollamount="10"> 
-			<img src="1QUARTER-NOTE.png" style="width:71px;height:158px;">
+			<img id=note src="1QUARTER-NOTE.png" style="width:71px;height:158px;">
 		</marquee>
   </body>
 </html>
