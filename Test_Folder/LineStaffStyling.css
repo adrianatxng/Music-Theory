@@ -6,12 +6,17 @@ body {
   background-size: 100%;
 }
 
-#marquee1 {
+#marqueeQ {
   position: relative;
   top: 100px;
 }
 
-#marquee2 {
+#marquee-C {
   position: relative;
   top: 60px;
+}
+
+#marquee-half {
+  position: relative;
+  top: 30px;
 }
