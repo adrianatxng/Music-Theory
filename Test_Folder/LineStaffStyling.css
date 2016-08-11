@@ -7,16 +7,16 @@ body {
 }
 
 #marqueeQ {
-  position: relative;
+  position: absolute;
   top: 100px;
 }
 
 #marquee-C {
-  position: relative;
+  position: absolute;
   top: 60px;
 }
 
 #marquee-half {
-  position: relative;
+  position: absolute;
   top: 30px;
 }
