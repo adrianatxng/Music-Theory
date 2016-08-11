@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<Button Name = "up" Width = "277" Height = "280">
+<img src = "up arrow button.jpg"></img>
+<input id="clickMeU" type="button" value="clickme" onclick="up();" />
+</Button>
+<Button Name = "down" Width = "" Height = "">
+<img src = "down arrow button.jpg"></img>
+<input id="clickMeD" type="button" value="clickme" onclick="down()" />
+</Button>
+<!--<img src="up arrow button.gif" width="200" height="1300" border="0" alt="javascript button">-->
+<!--<img src="down arrow button.gif" width="200" height="130" border="0" alt="javascript button">-->
+</body>
+<script>
+//<img name="jsbutton" src="buyit15.jpg" width="110" height="28" border="0" alt="javascript button">
+function up(){
+
+}
+
+function down(){
+
+}
