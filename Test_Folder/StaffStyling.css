@@ -9,7 +9,7 @@ body {
 ul.marquee li{
   display:inline-block;
 }
-}
+
 
 #marqueeC1 {
   position: absolute;
