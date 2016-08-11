@@ -1,3 +1,8 @@
+img {
+  position: absolute;
+  top: 50px;
+}
+
 html { 
   background: url(STAFFBACK.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -8,7 +13,3 @@ html {
   background-position:center;
 }
 
-img {
-  position: absolute;
-  top: 50px;
-}
