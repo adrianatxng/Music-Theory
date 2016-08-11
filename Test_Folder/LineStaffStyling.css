@@ -6,8 +6,12 @@ body {
   background-size: 100%;
 }
 
-marquee {
+.marquee1 {
   position: relative;
   top: 100px;
 }
 
+.marquee2 {
+  position: relative;
+  top: 60px;
+}
