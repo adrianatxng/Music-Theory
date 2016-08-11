@@ -1,0 +1,47 @@
+body { 
+  background: url(5_staff.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+}
+
+#marqueeC1 {
+  position: absolute;
+  top: 205px;
+}
+
+#marqueeD1 {
+  position: absolute;
+  top: 175px;
+}
+  
+#marqueeE1 {
+  position: absolute;
+  top: 145px;
+}
+
+#marqueeF1 {
+  position: absolute;
+  top: 117px;
+}
+
+#marqueeG1 {
+  position: absolute;
+  top: 90px;
+}
+
+#marqueeA1 {
+  position: absolute;
+  top: 60px;
+}
+
+#marqueeB1 {
+  position: absolute;
+  top: 50px;
+}
+
+#marqueeC2 {
+  position: absolute;
+  top: 30px;
+}
