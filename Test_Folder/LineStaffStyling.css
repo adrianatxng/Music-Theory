@@ -1,15 +1,13 @@
-img {
-  position: relative;
-  top: 200px;
-}
-
-html { 
-  background: url(STAFFBACK.png) no-repeat center center fixed; 
+body { 
+  background: url(STAFFBACK.png) no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  /*-o-background-size: cover;*/
-  background-size: 98%;
-  margin-left:10px;
-  background-position:center;
+  -o-background-size: cover;
+  background-size: 100%;
+}
+
+marquee {
+  position: relative;
+  top: 100px;
 }
 
