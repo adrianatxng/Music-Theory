@@ -7,11 +7,11 @@ body {
 }
 
 #marquee1 {
-  position: absolute;
+  position: relative;
   top: 100px;
 }
 
 #marquee2 {
-  position: absolute;
+  position: relative;
   top: 60px;
 }
