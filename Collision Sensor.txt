@@ -1,0 +1,10 @@
+var score = y
+var notes = x
+
+if "output_EGiipv.gif" (touches C-note, D-note, E-note, G-note) {
+	y == y + 1 ;
+}
+else if "output_EGiipv.gif" (touches A-note, B-note, F-note, A-false, B-false, C-false, D-false, E-false, F-false, G-false) {
+	y == y - 1 ; 
+}
+
