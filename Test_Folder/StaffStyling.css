@@ -12,21 +12,25 @@ li{
 
 
 #marqueeC1 {
+  display:inline-block;
   position: absolute;
   top: 205px;
 }
 
 #marqueeD1 {
+  display:inline-block;
   position: absolute;
   top: 175px;
 }
   
 #marqueeE1 {
+  display:inline-block;
   position: absolute;
   top: 145px;
 }
 
 #marqueeF1 {
+  display:inline-block;
   position: absolute;
   top: 117px;
 }
