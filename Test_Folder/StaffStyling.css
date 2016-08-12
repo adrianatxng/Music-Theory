@@ -17,21 +17,21 @@ body {
   display:inline-block;
   position: absolute;
   top: 175px;
-  left:-50px;
+  left:-50%;
 }
   
 #marqueeE1 {
   display:inline-block;
   position: absolute;
   top: 145px;
-  left:-100px;
+  left:-100%;
 }
 
 #marqueeF1 {
   display:inline-block;
   position: absolute;
   top: 117px;
-  left:-10px;
+  left:-10%;
 }
 
 #marqueeG1 {
