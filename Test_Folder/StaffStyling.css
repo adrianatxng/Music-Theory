@@ -6,11 +6,7 @@ body {
   background-size: 100%;
 }
 
-li{
-  display:inline-block;
 }
-
-
 #marqueeC1 {
   display:inline-block;
   position: absolute;
@@ -21,18 +17,21 @@ li{
   display:inline-block;
   position: absolute;
   top: 175px;
+  left:-50px;
 }
   
 #marqueeE1 {
   display:inline-block;
   position: absolute;
   top: 145px;
+  left:-100px;
 }
 
 #marqueeF1 {
   display:inline-block;
   position: absolute;
   top: 117px;
+  left:-10px;
 }
 
 #marqueeG1 {
