@@ -6,7 +6,7 @@ body {
   background-size: 100%;
 }
 
-ul.marquee{
+li{
   display:inline-block;
 }
 
