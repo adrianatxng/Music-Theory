@@ -1,0 +1,61 @@
+import pygame
+import random
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+
+pygame.init()
+
+screen_width = 700
+screen_height = 500
+screen = pygame.display.set_mode([screen_width, screen_height])
+player = pygame.image.load('output_EGiipv.GIF')
+
+x = 400
+y = 400
+
+done = False
+clock = pygame.time.Clock()
+
+while not done:
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            done = True
+
+    screen.fill(WHITE)
+    
+    #variables for button placing
+    rect_up_bound = [(100, 200), (200, 200), (200, 100), (100, 100)]
+    rect_down_bound = [(100, 300), (200, 300), (100, 400), (200, 400)]
+    
+    #draw buttons
+    button_up = pygame.draw.rect(screen, GREEN, (100, 100, 100, 100))
+    button_down = pygame.draw.rect(screen, RED, (100, 300, 100, 100))
+
+    #insert sprite here
+    pygame.draw.circle(screen, BLUE, (x, y), 100)
+    
+    pygame.display.flip()
+    clock.tick(6)
+    
+    #needed for button function
+    for event in pygame.event.get():
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            pos = pygame.mouse.get_pos()
+            if pos[0] >= 100 and pos[0] <= 200:
+                if pos[1] >= 100 and pos[1] <= 200:
+                    y -= 100
+                    pygame.draw.circle(screen, BLUE, (x, y), 100)
+                    pygame.display.flip()
+                elif pos[1] >= 300 and pos[1] <= 400:
+                    y += 100
+                    pygame.draw.circle(screen, BLUE, (x, y), 100)
+                    pygame.display.flip()
+
+pygame.quit()
+exit()
